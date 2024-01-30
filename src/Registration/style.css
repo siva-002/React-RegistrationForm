@@ -1,0 +1,32 @@
+form{
+    width:300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   margin: 0 15%;
+
+}
+form label{
+    font-size: 20px;
+}
+.con{
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border: 2px solid;
+    width: 400px;
+ 
+}
+form button{
+    width: 100px;
+   
+    padding:10px;
+    font-size: 18px;
+    background: transparent;
+    border-radius: 20px;
+}
+form button:hover{
+    cursor: pointer;
+}
